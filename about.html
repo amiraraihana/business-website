@@ -340,7 +340,7 @@
 		<!-- Separator End -->
 		
 	<script>
-	  // Toggle click descriptions for milestones
+	  // Toggle descriptions for milestones
 	  document.querySelectorAll('.milestone-item').forEach(item => {
 		item.addEventListener('click', () => {
 		  const description = item.querySelector('.milestone-description');
@@ -354,6 +354,15 @@
 		});
 	  });
 
+	  // Add hover effects for values
+	  document.querySelectorAll('.value-item').forEach(item => {
+		item.addEventListener('mouseover', () => {
+		  item.style.color = '#ebc0c0'; // Blue on hover
+		});
+		item.addEventListener('mouseout', () => {
+		  item.style.color = '#555'; // Reset color
+		});
+	  });
 	</script>
 	<script>
 			let slideIndex = 1;
