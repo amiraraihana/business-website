@@ -14,10 +14,6 @@ body {
 table{
 	border-collapse:collapse;
 	font-family: Century Gothic;
-	width: 100%;
-    overflow-x: auto;
-    display: block;
-	/*text-align: center;*/
 }
 
 
